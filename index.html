@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Todo app</title>
-</head>
-<body>
-  Todo
-
-  <!-- Add dynamic number --> items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo app</title>
+  </head>
+  <body>
+    <form class="form">
+      <header>
+        <div class="title">
+          <h2>Todo</h2>
+          <img src="./images/icon-sun.svg" alt="" />
+        </div>
+      </header>
+      <main>
+        <div class="input-section">
+          <span></span>
+          <input type="text" placeholder="Create a new todo..." />
+        </div>
+        <ul class="todos">
+          <li>
+            <input type="checkbox">
+            <span>task</span>
+            <img src="./images/icon-cross.svg" alt="icon-cross">
+          </li>
+          <li>
+            <input type="checkbox">
+            <span>task</span>
+            <img src="./images/icon-cross.svg" alt="icon-cross">
+          </li>
+          <li>
+            <input type="checkbox">
+            <span>task</span>
+            <img src="./images/icon-cross.svg" alt="icon-cross">
+          </li>
+          <li>
+            <input type="checkbox">
+            <span>task</span>
+            <img src="./images/icon-cross.svg" alt="icon-cross">
+          </li>
+        </ul>
+      </main>
+    </form>
+  </body>
 </html>
